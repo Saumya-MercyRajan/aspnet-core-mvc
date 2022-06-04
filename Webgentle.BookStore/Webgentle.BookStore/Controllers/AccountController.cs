@@ -49,7 +49,10 @@ namespace Webgentle.BookStore.Controllers
             return View(userModel);
         }
 
-
+        /// <summary>
+        /// Login
+        /// </summary>
+        /// <returns></returns>
         [Route("login")]
         public IActionResult Login()
         {
